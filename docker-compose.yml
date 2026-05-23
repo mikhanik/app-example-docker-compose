@@ -7,7 +7,7 @@ services:
         - ARGUMENT_VAR=${example_var}
     container_name: dog-backend
     ports:
-      - "8000:8000"
+      - "5555:8000"
     env_file:
       - .env_example
     environment:
